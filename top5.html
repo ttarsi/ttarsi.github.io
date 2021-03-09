@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/favicon.ico" type="image/png">
+    <link rel="stylesheet" href="/static/style.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <title>Top Fives · Tyler Tarsi</title>
+</head>
+<body>
+  <div id="nav-placeholder"></div>
+  <script>
+    $(function(){
+      $("#nav-placeholder").load("/nav.html");
+    });
+  </script>
+  <div id="left">&nbsp;</div>
+  <div id="content">
+    <p>A couple top 5 Lists</p>
+    <p>Top 5 Sci Fi Authors</p>
+    <ol>
+      <li>Vernor Vinge</li>
+      <li>Neal Stephenson</li>
+      <li>Isaac Asimov</li>
+      <li>Peter Hamilton</li>
+      <li>Cixin Liu</li>
+    </ol>
+    <p>Top 5 Movies</p>
+    <ol>
+      <li>Apocalypse Now</li>
+      <li>Interstellar</li>
+    </ol>
+  </div>
+</body>
+</html>
