@@ -4,11 +4,6 @@ title,
   margin-bottom: 0.2em;
 }
 
-footer,
-.footer {
-  text-align: center;
-}
-
 .subtitle {
   text-align: center;
   font-size: medium;
@@ -24,7 +19,6 @@ body {
   max-width: 700px;
 }
 
-h2,
 h2,
 h3 {
   line-height: 1.2;
