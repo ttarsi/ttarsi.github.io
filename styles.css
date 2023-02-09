@@ -44,3 +44,9 @@ img {
   padding: 2px;
 }
 
+#about,
+#books,
+#people {
+  margin-left: 20px;
+  margin-right: 20px;
+}
