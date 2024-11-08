@@ -46,7 +46,19 @@ img {
 
 #about,
 #books,
-#people {
+#people,
+#quotes {
   margin-left: 20px;
   margin-right: 20px;
 }
+
+.quote-container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.quote {
+  margin: 2em 0;
+  line-height: 1.6;
+}
+
